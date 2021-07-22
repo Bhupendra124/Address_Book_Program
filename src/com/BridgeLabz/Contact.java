@@ -1,5 +1,7 @@
 package com.BridgeLabz;
 
+import java.util.Locale;
+
 public class Contact {
 
 
@@ -40,4 +42,16 @@ public class Contact {
                 ", email='" + email + '\'' +
                 '}';
     }
+    public class Test{
+
+            public void startProgram(){
+                Contact contact=new Contact("Bhupendra","Wadekar","Govind Collony",
+                        "Amla","M.P","460551","9893902047","wadekar.bhupendra6@gmail.com");
+                System.out.println(contact);
+            }
+
+    }
+
+  
+
 }
